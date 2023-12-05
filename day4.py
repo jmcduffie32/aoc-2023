@@ -62,7 +62,7 @@ def solve_2():
             if cards.get(index):
                 cards[index] = cards[index] + cards[i]
             else:
-                cards[index] = 1
+                cards[index] = cards[i]
 
     total = 0
     print(cards)
